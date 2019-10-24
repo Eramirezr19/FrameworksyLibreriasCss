@@ -1,0 +1,24 @@
+.blog-body{
+  background: #69A0A9;
+}
+.logo{
+  background: #2FA3C8;
+  min-height: 10rem;
+}
+.redes{
+  background: #2FA3C8;
+  min-height: 5rem;
+  text-align: right;
+  padding-right: 40px;
+}
+.barra-navegacion{
+  background: #1914B5;
+  color: #22B514 !important;
+}
+.iconos{
+  color:#FFFFFF;
+}
+.buscador{
+  background: #1914B5;
+  min-height: 100rem;
+}
