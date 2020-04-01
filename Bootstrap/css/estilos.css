@@ -4,6 +4,13 @@
 .logo{
   background: #2FA3C8;
   min-height: 10rem;
+
+}
+.logoprincipal {
+height: 70px;
+ display: block;
+  margin-top:20px;
+  margin-left: 20px;
 }
 .redes{
   background: #2FA3C8;
@@ -11,6 +18,17 @@
   text-align: right;
   padding-right: 40px;
 }
+.redes2{
+  background: #2FA3C8;
+  min-height: 5rem;
+  text-align: right;
+  padding-right: 40px;
+}
+.redes2 img:hover{
+	transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+}
+
 .barra-navegacion{
   background: #1914B5;
   color: #22B514 !important;
@@ -21,6 +39,7 @@
 .buscador{
   background: #1914B5;
   min-height: 100rem;
+
 }
 #img{
   width: 95%;
@@ -35,4 +54,26 @@ textarea {
 }
 #img-thumbnail{
   height: 60px !important;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-social{
+  height: 40px;
+}
+
+@media (max-width:900px){
+  .logoprincipal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .redes2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding-right: 0px;
+  }
 }
