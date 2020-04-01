@@ -22,3 +22,17 @@
   background: #1914B5;
   min-height: 100rem;
 }
+#img{
+  width: 95%;
+}
+#comentarios{
+  color: black;
+}
+textarea {
+  width: 100% !important;
+  height: 60px !important;
+  border-radius: 5px;
+}
+#img-thumbnail{
+  height: 60px !important;
+}
