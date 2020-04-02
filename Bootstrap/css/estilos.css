@@ -40,9 +40,10 @@ height: 70px;
   background: #1914B5;
   min-height: 100rem;
 
+
 }
 #img{
-  width: 95%;
+  width: 100%;
 }
 #comentarios{
   color: black;
@@ -75,5 +76,8 @@ textarea {
     margin-right: auto;
     text-align:center;
     padding-right: 0px;
+  }
+  .buscador{
+    display: none;
   }
 }
